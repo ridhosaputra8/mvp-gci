@@ -237,10 +237,6 @@ if ($this->uri->segment(2) == "" || $this->uri->segment(2) == "index") { ?>
 <!-- Template JS File -->
 <script src="<?php echo base_url(); ?>assets/js/scripts.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/custom.js"></script>
-<?php if ($this->uri->segment(3) == 'add') { ?>
-  <script src="<?php echo base_url(); ?>assets/modules/select2/dist/js/select2.full.min.js"></script>
-  <script src="<?php echo base_url(); ?>assets/js/page/forms-advanced-forms.js"></script>
-<?php } ?>
 </body>
 
 </html>

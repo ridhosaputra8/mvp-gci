@@ -1,50 +1,58 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Tagihan extends CI_Controller {
-    public function index() {
+class Tagihan extends CI_Controller
+{
+	public function index()
+	{
 		$data = array(
 			'title' => "Tagihan Mahasiswa"
 		);
 		$this->load->view('admin/tagihan/index', $data);
 	}
 
-    public function add() {
+	public function add()
+	{
 		$data = array(
 			'title' => "Tambah Tagihan"
 		);
-		$this->load->view('admin/tagihan/add', $data);
+		$this->load->view('admin/tagihan/addTagihan', $data);
 	}
 
-    public function create() {
+	public function create()
+	{
 		$data = array(
 			'title' => "MVP Dashboard"
 		);
 		$this->load->view('admin/tagihan/index', $data);
 	}
 
-    public function detail() {
+	public function detail()
+	{
 		$data = array(
 			'title' => "MVP Dashboard"
 		);
 		$this->load->view('admin/tagihan/index', $data);
 	}
 
-    public function edit() {
+	public function edit()
+	{
 		$data = array(
 			'title' => "MVP Dashboard"
 		);
 		$this->load->view('admin/tagihan/index', $data);
 	}
 
-    public function update() {
+	public function update()
+	{
 		$data = array(
 			'title' => "MVP Dashboard"
 		);
 		$this->load->view('admin/tagihan/index', $data);
 	}
 
-    public function delete() {
+	public function delete()
+	{
 		$data = array(
 			'title' => "MVP Dashboard"
 		);
