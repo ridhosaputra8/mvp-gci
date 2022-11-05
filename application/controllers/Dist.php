@@ -7,21 +7,21 @@ class Dist extends CI_Controller {
 		$data = array(
 			'title' => "MVP Dashboard"
 		);
-		$this->load->view('dist/admin/dashboard', $data);
+		$this->load->view('admin/dashboard', $data);
 	}
 
-	public function index_0() {
-		$data = array(
-			'title' => "General Dashboard"
-		);
-		$this->load->view('dist/index-0', $data);
-	}
+	// public function index_0() {
+	// 	$data = array(
+	// 		'title' => "General Dashboard"
+	// 	);
+	// 	$this->load->view('dist/index-0', $data);
+	// }
 
 	public function layout_default() {
 		$data = array(
 			'title' => "Layout &rsaquo; Default"
 		);
-		$this->load->view('dist/layout-default', $data);
+		$this->load->view('dist/admin/tagihan', $data);
 	}
 
 	public function layout_transparent() {
