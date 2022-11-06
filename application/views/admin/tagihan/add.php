@@ -24,8 +24,8 @@ $this->load->view('dist/_partials/header');
                         </div>
                         <div class="card-body">
                             <div class="form-group">
-                                <label>Tanggal</label>
-                                <input type="text" class="form-control datepicker">
+                                <label>Date</label>
+                                <input type="date" class="form-control">
                             </div>
                             <div class="form-group">
                                 <label>Nama Mahasiswa</label>
@@ -67,20 +67,19 @@ $this->load->view('dist/_partials/header');
                                     <input type="text" class="form-control currency">
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <div class="control-label">Status Tagihan</div>
-                                <div class="custom-switches-stacked mt-2">
-                                    <label class="custom-switch">
-                                        <input type="radio" name="option" value="1" class="custom-switch-input" checked>
-                                        <span class="custom-switch-indicator"></span>
-                                        <span class="custom-switch-description">Aktif</span>
-                                    </label>
-                                </div>
+                            <div class="form-check form-group">
+                                <input class="form-check-input" type="checkbox" id="defaultCheck3">
+                                <label class="form-check-label" for="defaultCheck3">
+                                    Aktif
+                                </label>
                             </div>
-                            <a href="<?php echo base_url(); ?>admin/tagihan/add" class="btn btn-icon icon-left btn-primary"><i class="far fa-edit"></i> Simpan</a>
+                            <div class="card-header-action">
+                                <a href="<?php echo base_url(); ?>admin/tagihan/add" class="btn btn-icon icon-left btn-primary"><i class="far fa-edit"></i> Simpan</a>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
     </section>
 </div>
 <?php $this->load->view('dist/_partials/footer'); ?>

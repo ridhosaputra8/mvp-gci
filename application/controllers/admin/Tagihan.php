@@ -16,7 +16,7 @@ class Tagihan extends CI_Controller
 		$data = array(
 			'title' => "Tambah Tagihan"
 		);
-		$this->load->view('admin/tagihan/addTagihan', $data);
+		$this->load->view('admin/tagihan/add', $data);
 	}
 
 	public function create()
@@ -52,6 +52,22 @@ class Tagihan extends CI_Controller
 	}
 
 	public function delete()
+	{
+		$data = array(
+			'title' => "MVP Dashboard"
+		);
+		$this->load->view('admin/tagihan/index', $data);
+	}
+
+	public function paid()
+	{
+		$data = array(
+			'title' => "MVP Dashboard"
+		);
+		$this->load->view('admin/tagihan/index', $data);
+	}
+
+	public function paidUpdate()
 	{
 		$data = array(
 			'title' => "MVP Dashboard"

@@ -10,7 +10,7 @@ $this->load->view('dist/_partials/header');
       <div class="section-header-breadcrumb">
         <div class="breadcrumb-item active"><a href="#">Dashboard</a></div>
         <div class="breadcrumb-item"><a href="#">Tagihan</a></div>
-        <div class="breadcrumb-item">Lihat Tagihan</div>
+        <div class="breadcrumb-item">Tagihan Mahasiswa</div>
       </div>
     </div>
 
@@ -20,7 +20,9 @@ $this->load->view('dist/_partials/header');
         <div class="card">
           <div class="card-header">
             <h4>Data Tagihan Mahasiswa</h4>
-            <a href="<?php echo base_url(); ?>admin/tagihan/add" class="btn btn-icon icon-left btn-primary"><i class="far fa-edit"></i> Tambah Tagihan</a>
+            <div class="card-header-action">
+              <a href="<?php echo base_url(); ?>admin/tagihan/add" class="btn btn-icon icon-left btn-primary"><i class="far fa-edit"></i> Tambah Tagihan</a>
+            </div>
           </div>
           <div class="card-body">
             <div class="table-responsive">
