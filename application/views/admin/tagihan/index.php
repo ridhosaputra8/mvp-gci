@@ -58,7 +58,7 @@ $this->load->view('dist/_partials/header');
                     <td>
                       <div class="badge badge-success">Completed</div>
                     </td>
-                    <td><a href="#" class="btn btn-secondary">Detail</a></td>
+                    <td><a href="<?php echo base_url(); ?>admin/tagihan/paid" class="btn btn-success">Bayar</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -79,7 +79,7 @@ $this->load->view('dist/_partials/header');
                     <td>
                       <div class="badge badge-info">Todo</div>
                     </td>
-                    <td><a href="#" class="btn btn-secondary">Detail</a></td>
+                    <td><a href="<?php echo base_url(); ?>admin/tagihan/paid" class="btn btn-success">Bayar</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -99,7 +99,7 @@ $this->load->view('dist/_partials/header');
                     <td>
                       <div class="badge badge-warning">In Progress</div>
                     </td>
-                    <td><a href="#" class="btn btn-secondary">Detail</a></td>
+                    <td><a href="<?php echo base_url(); ?>admin/tagihan/paid" class="btn btn-success">Bayar</a></td>
                   </tr>
                   <tr>
                     <td>
@@ -121,7 +121,7 @@ $this->load->view('dist/_partials/header');
                     <td>
                       <div class="badge badge-success">Completed</div>
                     </td>
-                    <td><a href="#" class="btn btn-secondary">Detail</a></td>
+                    <td><a href="<?php echo base_url(); ?>admin/tagihan/paid" class="btn btn-success">Bayar</a></td>
                   </tr>
                 </tbody>
               </table>

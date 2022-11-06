@@ -64,7 +64,7 @@ class Tagihan extends CI_Controller
 		$data = array(
 			'title' => "MVP Dashboard"
 		);
-		$this->load->view('admin/tagihan/index', $data);
+		$this->load->view('admin/tagihan/paid', $data);
 	}
 
 	public function paidUpdate()
