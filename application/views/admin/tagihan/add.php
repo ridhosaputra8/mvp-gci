@@ -73,8 +73,8 @@ $this->load->view('dist/_partials/header');
                                     Aktif
                                 </label>
                             </div>
-                            <div class="card-header-action">
-                                <a href="<?php echo base_url(); ?>admin/tagihan/add" class="btn btn-icon icon-left btn-primary"><i class="far fa-edit"></i> Simpan</a>
+                            <div class="card-footer text-right">
+                                <button class="btn btn-primary mr-1" type="submit">Simpan</button>
                             </div>
                         </div>
                     </div>
