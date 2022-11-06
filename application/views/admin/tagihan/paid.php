@@ -8,9 +8,9 @@ $this->load->view('dist/_partials/header');
         <div class="section-header">
             <h1>Bayar Tagihan</h1>
             <div class="section-header-breadcrumb">
-                <div class="breadcrumb-item active"><a href="#">Dashboard</a></div>
-                <div class="breadcrumb-item"><a href="#">Forms</a></div>
-                <div class="breadcrumb-item">Advanced Forms</div>
+                <div class="breadcrumb-item active"><a href="#">Tagihan</a></div>
+                <div class="breadcrumb-item"><a href="#">Tagihan Mahasiswa</a></div>
+                <div class="breadcrumb-item">Bayar Tagihan</div>
             </div>
         </div>
 
@@ -29,11 +29,7 @@ $this->load->view('dist/_partials/header');
                             </div>
                             <div class="form-group">
                                 <label>Nama Mahasiswa</label>
-                                <select class="form-control select2">
-                                    <option>Option 1</option>
-                                    <option>Option 2</option>
-                                    <option>Option 3</option>
-                                </select>
+                                <input type="text" class="form-control" readonly="">
                             </div>
                             <div class="form-group">
                                 <label>Jenis Tagihan</label>
@@ -64,14 +60,8 @@ $this->load->view('dist/_partials/header');
                                             Rp.
                                         </div>
                                     </div>
-                                    <input type="text" class="form-control currency">
+                                    <input type="text" class="form-control currency" readonly="">
                                 </div>
-                            </div>
-                            <div class="form-check form-group">
-                                <input class="form-check-input" type="checkbox" id="defaultCheck3">
-                                <label class="form-check-label" for="defaultCheck3">
-                                    Aktif
-                                </label>
                             </div>
                             <div class="card-footer text-right">
                                 <button class="btn btn-primary mr-1" type="submit">Simpan</button>
