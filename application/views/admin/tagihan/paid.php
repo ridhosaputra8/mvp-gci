@@ -14,7 +14,7 @@ $this->load->view('dist/_partials/header');
             </div>
         </div>
 
-        <!-- Form Tambah Tagihan -->
+        <!-- Form Pembayaran Tagihan -->
         <div class="section-body">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8 col-lg-8">

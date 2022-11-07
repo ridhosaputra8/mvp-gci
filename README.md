@@ -1,65 +1,33 @@
-<p align="center">
-  <a href="https://getstisla.com">
-    <img src="https://avatars2.githubusercontent.com/u/45754626?s=75&v=4" alt="Stisla logo" width="75" height="75">
-  </a>
-</p>
-
-<h1 align="center">Stisla for CodeIgniter</h1>
+<h1 align="center">Minimum Viable Product (MVP)</h1>
 
 <p align="center">
-  Stisla is Free Bootstrap Admin Template and will help you to speed up your project, design your own dashboard UI and the users will love it.
+  Minimum Viable Product (MVP) merupakan project yang dibuat sebagai tugas dari interview di Garuda Cyber Indonesia. 
 </p>
-
-[![Stisla Preview](https://camo.githubusercontent.com/2135e0f6544a7286a3412cdc3df32d47fc91b045/68747470733a2f2f692e6962622e636f2f3674646d6358302f323031382d31312d31312d31352d33352d676574737469736c612d636f6d2e706e67)](https://getstisla.com)
 
 ## Table of contents
 
-- [Link Stisla](#link-stisla)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#License)
+- [Tech Stack](#Tech-stack)
+- [Documentation](#Documentation)
+- [Closing](#Closing)
 
-## Link Stisla
-- Homepage: [getstisla.com](https://getstisla.com)
-- Repository: [github.com/stisla/stisla](https://github.com/stisla/stisla)
-- Documentation: [getstisla.com/docs](https://getstisla.com/docs)
+## Tech Stack
 
-## Installation
-- [Download the latest release](https://github.com/KhidirDotID/stisla-codeigniter/archive/v1.0.0.zip).
-or clone the repo :
-```
-https://github.com/KhidirDotID/stisla-codeigniter.git
-```
+Project ini dibangun dengan menggunakan:
 
-## Usage
-- Create a new Controller at `application/controllers` then put like this:
-```
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+- Bahasa program: PHP framework CodeIgniter 4
+- Database: MariaDB
+- Template by Stisla, bisa dilihat pada link https://getstisla.com
+- Platform yang digunakan : Visual Studio Code, Antares, Chromium Web Browser.
 
-class Controller_name extends CI_Controller {
+## Documentation
 
-	public function index() {
-		$data = array(
-			'title' => "Your title"
-		);
-		$this->load->view('View_name', $data);
-	}
-}
-?>
-```
-- Create a new View at `application/views` then put like this:
-```
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-$this->load->view('dist/_partials/header'); ?>
+Untuk dokumentasi dan penjelasan detail apa saja yang sudah dibuat pada project ini silahkan akses dokumen google yang tertera
+https://docs.google.com/document/d/1kS-zsqnMePEjnPCC7TYIeFv4o97RqNDZU0E9rUu9vOs/edit?usp=sharing
 
-      <!-- Main Content -->
+## Closing
 
-<?php
-$this->load->view('dist/_partials/footer'); ?>
-```
+Saya mengucapkan terimakasih kepada kedua orang tua, keluarga dan teman-teman saya yang selalu memberikan support dan dukungan moral bagi saya.
 
-## License
+Saya mengucapkan terimakasih kepada seluruh kru dan tim yang bertugas dari Garuda Cyber Indonesia karena telah memberikan saya waktu dan kesempatan untuk melaksanakan test interview dan membuat project yang diberikan hingga hari ini. Apapun keputusan dari tim Garuda Cyber Indonesia akan saya terima dengan senang hati. Saya senang telah diberikan waktu dan kesempatan untuk melakukan interview di Garuda Cyber Indonesia. Sukses selalu untuk Garuda Cyber Indonesia.
 
-Stisla is under the [MIT License](LICENSE).
+Saya juga berterimakasih kepada Stisla karena telah menyediakan template yang bagus untuk digunakan pada project kali ini.
